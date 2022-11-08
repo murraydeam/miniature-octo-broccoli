@@ -1,11 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Wendy+One&display=swap");
 
 body {
-    margin: 0;
+  margin: 0;
 }
+
 .sign-up {
-    display: flex;
+  display: flex;
+  min-height: 100vh;
 }
+
 .left-panel {
-    background-image: url("../imgs/signup.jpg");
+  background-image: url("../imgs/signup.jpg");
+  background-size: cover;
 }
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+}
+
+.disclamer {
+    margin-bottom: 100px;
+}
+
