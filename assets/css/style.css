@@ -1,1 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+
+body {
+    margin: 0;
+}
+.sign-up {
+    display: flex;
+}
+.left-panel {
+    background-image: url("../imgs/signup.jpg");
+}
