@@ -9,6 +9,13 @@ body {
   min-height: 100vh;
 }
 
+.sign-up-form {
+    box-shadow: 0 0 16px #ccc;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
 .left-panel {
   background-image: url("../imgs/signup.jpg");
   background-size: cover;
@@ -18,10 +25,27 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 32px;
+    
 }
 
 .disclamer {
     margin-bottom: 100px;
+    padding: 16px;
 }
 
+.pass,
+.full-name,
+.user-contact {
+    display: flex;
+    gap: 32px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    min-width: 200px;
+    min-height: 30px;
+}

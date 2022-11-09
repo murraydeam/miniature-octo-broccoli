@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="./assets/js/index.js">
     <title>Document</title>
   </head>
   <body>
@@ -30,34 +31,56 @@
           <p>You know you want to.</p>
         </div>
         <div class="sign-up-form">
-          <form action="example.com/path" method="post">
+          <form action="#" method="post">
             <div class="full-name">
-              <label for="first_name">First Name:</label>
-              <input type="text" id="first_name" placeholder="First Name..." />
-              <label for="last_name">Last Name:</label>
-              <input type="text" id="last_name" placeholder="Last Name..." />
+              <div class="input">
+                <label for="first_name">First Name:</label>
+                <input
+                  type="text"
+                  id="first_name"
+                  placeholder="First Name..."
+                />
+              </div>
+              <div class="input">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" placeholder="Last Name..." />
+              </div>
             </div>
             <div class="user-contact">
-              <label for="email">EMAIL:</label>
-              <input
-                type="text"
-                id="email"
-                placeholder="username@email.com.."
-              />
-              <label for="phone-number">Phone Number:</label>
-              <input type="text" id="phone-number" placeholder="123-456-7859" />
+              <div class="input">
+                <label for="email">EMAIL:</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="username@email.com.."
+                />
+              </div>
+              <div class="input">
+                <label for="phone-number">Phone Number:</label>
+                <input
+                  type="text"
+                  id="phone-number"
+                  placeholder="123-456-7859"
+                />
+              </div>
             </div>
             <div class="pass">
-              <label for="pass">Password</label>
-              <input type="text" id="pass" />
-              <label for="pass-confirm">Confirm Password</label>
-              <input type="text" id="confirm-pass" />
+              <div class="input">
+                <label for="pass">Password</label>
+                <input type="password" id="pass" />
+              </div>
+              <div class="input">
+                <label for="pass-confirm">Confirm Password</label>
+                <input type="password" id="confirm-pass" />
+              </div>
             </div>
-            <button class="create-account">Create Account</button>
-            <h3>Already have an account? <a href="#">Log in</a></h3>
           </form>
         </div>
+        
+        <button class="create-account">Create Account</button>
+        <h3>Already have an account? <a href="#">Log in</a></h3>
       </div>
     </div>
   </body>
+  
 </html>
